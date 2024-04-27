@@ -347,7 +347,7 @@ function createUI()
 	G.Text="CommandGui"
 	G.Font=4
 	G.Parent=b
-	a.Parent=game:GetService"Players".LocalPlayer.PlayerGui
+	a.Parent=game:GetService("CoreGui")
 	return a
 end
 local ui = createUI()
